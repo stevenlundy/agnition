@@ -26,7 +26,7 @@ var Hypothesis = React.createClass({
     this.props.actions.setCause(this.refs.causeInput.value);
     this.refs.causeInput.value = '';
     this.props.actions.setEffect(this.refs.effectInput.value);
-    this.refs.effectInput.value x= '';
+    this.refs.effectInput.value = '';
   },
 
   render: function () {
